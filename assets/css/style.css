@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+   }
+   
+body {
+    font-size: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: aliceblue;
+}
+
+a {
+    text-decoration: none;
+   }
+
+li {
+    list-style: none;
+   }
+
+html {
+    scroll-behavior: smooth;
+}
+
+.navigation {
+    background-color: slategray;
+    overflow:hidden;
+}
+
+.navigation a {
+    float: right;
+    color: #f2f2f2;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navigation a:hover {
+    color: black;
+}
+
+.name {
+    font-size: 26px;
+    line-height: 1;
+    padding: 10px;
+    color: #f2f2f2;
+    display: flex;
+    flex-wrap: wrap;
+   }
+
+.me {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    padding-top: 10px;
+    font-size: 32px;
+    line-height: 1;
+}
+
+.myself {
+    padding: 10px;
+    font-size: 48px;
+    font-weight: 100;
+    text-decoration: underline;
+    text-decoration-color: #f2f2f2;
+}
+
+.avatar img {
+    border: solid 5px white;
+    box-shadow: 5px 5px 5px lightslategray;
+    margin: 0px;
+    display: inline;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.box {
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border: 20px solid slategray;
+}
+
+.close {
+    max-width: 100%;
+    max-height: 50%;
+    padding: 8px;
+    max-height: 50%;
+    border: solid #f2f2f2;
+    line-height: 1.5;
+}
+
+.projects {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin:10px 10px;
+    border-radius: 25%;
+    padding-right: 20px;
+}
+
+.projects h2 {
+    text-align: center;
+}
+
+.sub {
+    justify-content: center;
+    align-items: center;
+}
+
+.contacts {
+    text-align: center;
+}
+
+#contact {
+    font-weight: bolder;
+    font-size:larger;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    font-size: 100%;
+    color: lavender;
+    background-color: slategray;
+    padding: 15px;
+}
+
+ @media (max-width: 768px) {
+    .avatar img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .projects {
+        max-width: 100%;
+        max-height: 100%;
+    }
+}
+
