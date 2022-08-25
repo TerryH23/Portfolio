@@ -23,6 +23,7 @@ Portfolio will be updated over time as I continue to add more projects to my rep
 # Links
 
 ## Portfolio
-
+https://terryh23.github.io/portfolio/
 
 ## Repository
+https://github.com/TerryH23/portfolio
