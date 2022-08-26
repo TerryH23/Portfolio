@@ -14,7 +14,7 @@ Portfolio will be updated over time as I continue to add more projects to my rep
 
 # Preview
 
-![Preview]()
+![Preview](https://github.com/TerryH23/portfolio/blob/main/assets/images/portfolio-preview.png)
 
 
 
