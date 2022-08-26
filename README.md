@@ -27,3 +27,7 @@ https://terryh23.github.io/portfolio/
 
 ## Repository
 https://github.com/TerryH23/portfolio
+
+
+## Credits
+https://placeholder.com/
